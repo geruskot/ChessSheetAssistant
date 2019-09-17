@@ -22,6 +22,7 @@ namespace ChessSheetAssistant
     {
         public MainWindow()
         {
+
             InitializeComponent();
             MainFrame.NavigationService.Navigate(new Uri("Views/Home.xaml", UriKind.Relative));
         }
